@@ -79,5 +79,4 @@ public class TriangleTest {
         boolean result = Triangle.exist(ab, ca, bc);
         Assert.assertFalse(result);
     }
-
 }
