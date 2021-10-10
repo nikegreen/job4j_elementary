@@ -6,12 +6,12 @@ public class EndsWith {
         if (word.length < post.length) {
             return false;
         }
-        int j = word.length - 1;
-        for (int i = post.length - 1; i >= 0; i--) {
+        int j = word.length - post.length;
+        for (int i = 0; i < post.length; i++) {
             if (word[j] != post[i]) {
                 return false;
             }
-            j--;
+            j++;
         }
         return true;
     }
