@@ -8,5 +8,6 @@ public class MinDiapason {
                 min = array[index];
             }
         }
-        return min;    }
+        return min;
+    }
 }
