@@ -5,6 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AnomalyTest {
+
     @Test
     public void whenNoAnomaly() {
         int[][] expect = {};
