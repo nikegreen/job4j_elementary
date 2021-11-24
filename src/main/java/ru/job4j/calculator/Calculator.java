@@ -38,6 +38,10 @@ public class Calculator {
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
         Calculator calculator = new Calculator();
+        System.out.println(sum(5));
+        System.out.println(calculator.multiply(2));
+        System.out.println(minus(10));
+        System.out.println(calculator.divide(2));
         System.out.println(calculator.sumAllOperation(5));
     }
 }
